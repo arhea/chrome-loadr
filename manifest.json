@@ -3,7 +3,7 @@
 
   "name": "Loadr",
   "description": "Open a list of bookmarks in sequence.",
-  "version": "1.0",
+  "version": "1.1",
 
   "permissions": [
     "bookmarks",

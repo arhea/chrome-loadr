@@ -71,7 +71,7 @@ function printList(bookmarks) {
 
             html += '<li><a href="#" class="list-item" data-id="'+ bookmark.id +'">';
 
-            html += bookmark.title;
+            html += bookmark.title + ' (' + bookmark.children.length + ')';
 
             html += printList(bookmark.children);
 
